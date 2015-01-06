@@ -17,6 +17,7 @@
 		B2A8DD611A5C43540039A264 /* CERangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DD601A5C43540039A264 /* CERangeSlider.m */; };
 		B2A8DD631A5C48380039A264 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A8DD621A5C48380039A264 /* QuartzCore.framework */; };
 		B2A8DD661A5C575C0039A264 /* CERangeSliderKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DD651A5C575C0039A264 /* CERangeSliderKnobLayer.m */; };
+		B2A8DD691A5C698D0039A264 /* CERangeSliderTrackLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DD681A5C698D0039A264 /* CERangeSliderTrackLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		B2A8DD621A5C48380039A264 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B2A8DD641A5C575C0039A264 /* CERangeSliderKnobLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERangeSliderKnobLayer.h; sourceTree = "<group>"; };
 		B2A8DD651A5C575C0039A264 /* CERangeSliderKnobLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERangeSliderKnobLayer.m; sourceTree = "<group>"; };
+		B2A8DD671A5C698D0039A264 /* CERangeSliderTrackLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERangeSliderTrackLayer.h; sourceTree = "<group>"; };
+		B2A8DD681A5C698D0039A264 /* CERangeSliderTrackLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERangeSliderTrackLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				B2A8DD601A5C43540039A264 /* CERangeSlider.m */,
 				B2A8DD641A5C575C0039A264 /* CERangeSliderKnobLayer.h */,
 				B2A8DD651A5C575C0039A264 /* CERangeSliderKnobLayer.m */,
+				B2A8DD671A5C698D0039A264 /* CERangeSliderTrackLayer.h */,
+				B2A8DD681A5C698D0039A264 /* CERangeSliderTrackLayer.m */,
 				B2A8DD431A5C418E0039A264 /* Main.storyboard */,
 				B2A8DD461A5C418E0039A264 /* Images.xcassets */,
 				B2A8DD481A5C418E0039A264 /* LaunchScreen.xib */,
@@ -235,6 +240,7 @@
 			files = (
 				B2A8DD421A5C418E0039A264 /* ViewController.m in Sources */,
 				B2A8DD3F1A5C418E0039A264 /* AppDelegate.m in Sources */,
+				B2A8DD691A5C698D0039A264 /* CERangeSliderTrackLayer.m in Sources */,
 				B2A8DD661A5C575C0039A264 /* CERangeSliderKnobLayer.m in Sources */,
 				B2A8DD611A5C43540039A264 /* CERangeSlider.m in Sources */,
 				B2A8DD3C1A5C418E0039A264 /* main.m in Sources */,
