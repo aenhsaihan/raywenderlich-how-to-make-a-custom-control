@@ -14,6 +14,9 @@
 		B2A8DD471A5C418E0039A264 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A8DD461A5C418E0039A264 /* Images.xcassets */; };
 		B2A8DD4A1A5C418E0039A264 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2A8DD481A5C418E0039A264 /* LaunchScreen.xib */; };
 		B2A8DD561A5C418E0039A264 /* CERangeSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DD551A5C418E0039A264 /* CERangeSliderTests.m */; };
+		B2A8DD611A5C43540039A264 /* CERangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DD601A5C43540039A264 /* CERangeSlider.m */; };
+		B2A8DD631A5C48380039A264 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A8DD621A5C48380039A264 /* QuartzCore.framework */; };
+		B2A8DD661A5C575C0039A264 /* CERangeSliderKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DD651A5C575C0039A264 /* CERangeSliderKnobLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		B2A8DD4F1A5C418E0039A264 /* CERangeSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CERangeSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A8DD541A5C418E0039A264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A8DD551A5C418E0039A264 /* CERangeSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CERangeSliderTests.m; sourceTree = "<group>"; };
+		B2A8DD5F1A5C43540039A264 /* CERangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERangeSlider.h; sourceTree = "<group>"; };
+		B2A8DD601A5C43540039A264 /* CERangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERangeSlider.m; sourceTree = "<group>"; };
+		B2A8DD621A5C48380039A264 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2A8DD641A5C575C0039A264 /* CERangeSliderKnobLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CERangeSliderKnobLayer.h; sourceTree = "<group>"; };
+		B2A8DD651A5C575C0039A264 /* CERangeSliderKnobLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CERangeSliderKnobLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A8DD631A5C48380039A264 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		B2A8DD2D1A5C418E0039A264 = {
 			isa = PBXGroup;
 			children = (
+				B2A8DD621A5C48380039A264 /* QuartzCore.framework */,
 				B2A8DD381A5C418E0039A264 /* CERangeSlider */,
 				B2A8DD521A5C418E0039A264 /* CERangeSliderTests */,
 				B2A8DD371A5C418E0039A264 /* Products */,
@@ -85,6 +95,10 @@
 				B2A8DD3E1A5C418E0039A264 /* AppDelegate.m */,
 				B2A8DD401A5C418E0039A264 /* ViewController.h */,
 				B2A8DD411A5C418E0039A264 /* ViewController.m */,
+				B2A8DD5F1A5C43540039A264 /* CERangeSlider.h */,
+				B2A8DD601A5C43540039A264 /* CERangeSlider.m */,
+				B2A8DD641A5C575C0039A264 /* CERangeSliderKnobLayer.h */,
+				B2A8DD651A5C575C0039A264 /* CERangeSliderKnobLayer.m */,
 				B2A8DD431A5C418E0039A264 /* Main.storyboard */,
 				B2A8DD461A5C418E0039A264 /* Images.xcassets */,
 				B2A8DD481A5C418E0039A264 /* LaunchScreen.xib */,
@@ -221,6 +235,8 @@
 			files = (
 				B2A8DD421A5C418E0039A264 /* ViewController.m in Sources */,
 				B2A8DD3F1A5C418E0039A264 /* AppDelegate.m in Sources */,
+				B2A8DD661A5C575C0039A264 /* CERangeSliderKnobLayer.m in Sources */,
+				B2A8DD611A5C43540039A264 /* CERangeSlider.m in Sources */,
 				B2A8DD3C1A5C418E0039A264 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
