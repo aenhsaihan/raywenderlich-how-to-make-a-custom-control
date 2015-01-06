@@ -29,6 +29,14 @@
     [self.view addSubview:_rangeSlider];
     
     [_rangeSlider addTarget:self action:@selector(slideValueChanged:) forControlEvents:UIControlEventValueChanged];
+    
+    [self performSelector:@selector(updateState) withObject:nil afterDelay:1.0f];
+}
+
+-(void)updateState
+{
+    _rangeSlider.trackHighlightColour = [UIColor redColor];
+    _rangeSlider.curvaceousness = 0.0;
 }
 
 -(void)slideValueChanged:(id)control

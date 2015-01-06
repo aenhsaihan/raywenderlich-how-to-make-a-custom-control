@@ -14,9 +14,9 @@
 @property (nonatomic) float upperValue;
 @property (nonatomic) float lowerValue;
 
-@property (nonatomic) UIColor* trackColour;
-@property (nonatomic) UIColor* trackHighlightColour;
-@property (nonatomic) UIColor* knobColour;
+@property (nonatomic) UIColor * trackColour;
+@property (nonatomic) UIColor * trackHighlightColour;
+@property (nonatomic) UIColor * knobColour;
 @property (nonatomic) float curvaceousness;
 
 - (float) positionForValue:(float)value;
