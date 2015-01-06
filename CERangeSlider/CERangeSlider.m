@@ -131,6 +131,8 @@
     
     [CATransaction commit];
     
+    [self sendActionsForControlEvents:UIControlEventValueChanged];
+    
     return YES;
 }
 
